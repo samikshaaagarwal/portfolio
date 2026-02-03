@@ -3,7 +3,7 @@
 A responsive personal portfolio built with React + Vite. 
 
 ##  Live Demo
-https://your-vercel-link.vercel.app
+https://professional-portfolio-git-main-samikshaaagarwals-projects.vercel.app/
 
 ## Tech Stack used
 - React
