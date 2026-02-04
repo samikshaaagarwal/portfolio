@@ -1,10 +1,12 @@
+import Container from "./Container"
+
 function Skills() {
   return (
     <section style={{ padding: "60px 20px", textAlign: "center" }}>
-        <div style={styles.container}>
+        <Container>
             <h2>Skills</h2>
             <p>React • Node • Python • ML • Git • MongoDB</p>
-        </div>
+        </Container>
     </section>
   )
 }

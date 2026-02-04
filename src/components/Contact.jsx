@@ -1,11 +1,13 @@
+import Container from "./Container"
+
 function Contact() {
   return (
     <section id="contact" style={{ padding: "60px 20px", textAlign: "center" }}>
-        <div style={styles.container}>
+        <Container>
             <h2>Contact</h2>
             <p>Email: samiksha.stays@gmail.com</p>
             <p>GitHub: github.com/samikshaaagarwal</p>
-        </div>
+        </Container>
     </section>
   )
 }

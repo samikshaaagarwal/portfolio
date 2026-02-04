@@ -1,10 +1,12 @@
+import Container from "./Container"
+
 function Footer() {
   return (
-    <div style={styles.container}>
+    <Container>
         <footer style={{ padding: "20px", textAlign: "center", background: "#111", color: "white" }}>
         © 2026 Samiksha
         </footer>
-    </div>
+    </Container>
   )
 }
 

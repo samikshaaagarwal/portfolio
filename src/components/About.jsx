@@ -1,7 +1,9 @@
+import Container from "./Container"
+
 function About() {
   return (
     <section style={styles.section}>
-      <div style={styles.container}>
+      <Container>
         <h2 style={styles.heading}>About Me</h2>
 
         <p style={styles.text}>
@@ -16,7 +18,7 @@ Passionate about full-stack development, machine learning, and turning ideas int
           <span>Python</span>
           <span>Machine Learning</span>
         </div>
-      </div>
+      </Container>
     </section>
   )
 }

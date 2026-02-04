@@ -1,3 +1,5 @@
+import Container from "./Container"
+
 function Projects() {
   const projects = [
     {
@@ -34,7 +36,7 @@ function Projects() {
 
   return (
     <section style={styles.section} id="projects">
-      <div style={styles.container}>
+      <Container>
         <h2 style={styles.heading}>Projects</h2>
 
         <div style={styles.grid}>
@@ -63,7 +65,7 @@ function Projects() {
             </div>
           ))}
         </div>
-      </div>
+      </Container>
     </section>
   )
 }

@@ -1,7 +1,9 @@
+import Container from "./Container"
+
 function Hero() {
   return (
     <section style={styles.hero}>
-        <div style={styles.container}>
+        <Container>
             <h1>Hi, I'm Samiksha 👋</h1>
             <p>Frontend + Backend Developer</p>
             <p>React • Node • APIs • Databases • Deployment</p>
@@ -13,7 +15,7 @@ function Hero() {
                     <button>Contact me</button>
                 </a>
             </div>
-        </div>
+        </Container>
     </section>
   )
 }
