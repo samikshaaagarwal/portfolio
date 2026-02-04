@@ -65,6 +65,6 @@ Each section is modular and reusable for maintainability.
 npm install
 npm run dev
 
-## Production build
+## Production Build
 npm run build
 npm run preview
