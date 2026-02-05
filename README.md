@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio built using React + Vite to showcase my full-stack, machine learning, and data-driven projects.
 
-Live Demo: https://professional-portfolio-git-main-samikshaaagarwals-projects.vercel.app/
+Live Demo: https://professional-portfolio-samikshaaagarwals-projects.vercel.app/
 
 ---
 
