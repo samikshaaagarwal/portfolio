@@ -101,6 +101,11 @@ This was the reason for accessibility being 78. I fixed the button-inside-anchor
 - Accessibility best practices
 - Using AI effectively as a development assistant
 
+## Changes after review 1
+
+- Fixed invalid HTML syntax and used anchor tag only.
+- Enhanced UI by making the buttons more responsive and engaging. Added translation and border effect for better appearance.
+
 ## Outcome
 
 Successfully built a production-ready, responsive, and optimized portfolio that meets all assignment requirements.

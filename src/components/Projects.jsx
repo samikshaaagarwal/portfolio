@@ -51,17 +51,15 @@ function Projects() {
                 ))}
               </div>
 
-              <button style={styles.btn}>
-                <a
-                    href={p.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={styles.btn}
-                    aria-label={`Open GitHub repo for ${p.title}`}
-                    >
-                    GitHub
-                    </a>
-              </button>
+              <a
+              href={p.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn"
+              aria-label={`Open GitHub repo for ${p.title}`}
+            >
+              GitHub
+            </a>
             </div>
           ))}
         </div>
@@ -121,17 +119,6 @@ const styles = {
     padding: "4px 10px",
     background: "rgba(255,255,255,0.1)",
     borderRadius: "6px"
-  },
-
-  btn: {
-    padding: "12px 20px",
-    background: "#4f46e5",
-    border: "none",
-    minHeight: "44px",
-    borderRadius: "8px",
-    cursor: "pointer",
-    color: "white",
-    transition: "0.2s ease"
   }
 }
 
